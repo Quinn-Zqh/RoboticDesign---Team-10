@@ -8,8 +8,9 @@
   <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>
-  <depend>moveit</depend>
-  <depend>thread</depend>
+  <depend>moveit_core</depend>
+  
+
   
 
   <test_depend>ament_copyright</test_depend>
