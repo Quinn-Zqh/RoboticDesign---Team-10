@@ -17,6 +17,8 @@ Published Topics
 2）/color_detection	std_msgs/msg/String（Detected color information）
 3）/block_pose	geometry_msgs/msg/Pose（Coordinates of recognized blocks (X, Y, Z)）
 4）/bin_pose	geometry_msgs/msg/Pose（Coordinates of the recognized bin (X, Y, Z)）
+
+
 This can be considered if the robot arm needs to interact:
 Listening to the /block_pose topic to receive the coordinates of the target object.
 Listening to the /bin_pose topic to receive the position of the trash cans.
