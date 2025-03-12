@@ -9,9 +9,13 @@ RealSense Detection Package Instructions for Use (object_detection package)
 Hint: the useful code is mainly in the object_detection.py file, the launch file is a bit problematic at the moment
 
 ROS2 Topics：
+
+
 Subscribed Topics
 1）/camera/color/image_raw	sensor_msgs/msg/Image	
 2）/camera/depth/image_rect_raw	sensor_msgs/msg/Image
+
+
 Published Topics
 1）/color_image	sensor_msgs/msg/Image（Color image after target detection (with bounding box)）
 2）/color_detection	std_msgs/msg/String（Detected color information）
